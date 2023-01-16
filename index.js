@@ -20,6 +20,8 @@ const client = new Client({
  * 2.city denoted by q
  *
  */
+
+// Use ORM to save data in database
 const cities = ['delhi', 'srinagar', 'surat', 'jaipur'];
 save(cities);
 async function save(cities) {
