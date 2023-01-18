@@ -22,6 +22,10 @@ const client = new Client({
  */
 
 // Use ORM to save data in database
+
+// Test
+
+// todo: use orm
 const cities = ['delhi', 'srinagar', 'surat', 'jaipur'];
 save(cities);
 async function save(cities) {
