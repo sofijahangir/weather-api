@@ -12,6 +12,11 @@ const client = new Client({
     await client.connect();
     await client.query('CREATE  TABLE WEATHER(city varchar(30),details json)');
 })();
+
+
+// Test Test
+
+// test test
 // Make request using axios libray
 /**
  * this api takes 2 query params
