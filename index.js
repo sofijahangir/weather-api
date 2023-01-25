@@ -12,6 +12,11 @@ const client = new Client({
     await client.connect();
     await client.query('CREATE  TABLE WEATHER(city varchar(30),details json)');
 })();
+
+
+// Test Test
+
+// test test
 // Make request using axios libray
 /**
  * this api takes 2 query params
@@ -63,6 +68,8 @@ async function edit(old, newData) {
         console.log(err);
     }
 }
+
+// Hello Test Test
 async function del(key) {
     try {
         await client.query(`DELETE FROM WEATHER  where city = '${key}'`);
