@@ -70,6 +70,10 @@ async function edit(old, newData) {
 }
 
 // Hello Test Test
+// test test test
+// test 9 feb
+// test 9 feb
+// test 12 feb
 async function del(key) {
     try {
         await client.query(`DELETE FROM WEATHER  where city = '${key}'`);
